@@ -73,7 +73,7 @@ char losujpole()  //losowanie pola, po % tego co bylo w polecaniu
 
 void przesuwaniezwiadowcy(int x, int y, char plansza[ROZMIAR][ROZMIAR], int& energia, int& moc, int& skarb,int &iloscruchow)
 {
-	switch (plansza[x][y]) //zakladam ¿e jak schodze z jakiegos pola to zostawiam tam lad
+	switch (plansza[x][y]) //zakladam Å¼e jak schodze z jakiegos pola to zostawiam tam lad
 	{
 	case '_':
 		
